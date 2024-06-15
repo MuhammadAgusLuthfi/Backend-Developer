@@ -105,22 +105,21 @@ git rebase -i <remote_name>/<remote_branch> // Rebase commits in the current bra
 # Remote Repositories
 
 ```
-# List remote repositories
-git remote
-# Add a remote repository
-git remote add <name> <url>
-# Fetch from a remote repository
-git fetch <remote_name>
-# Pull changes from a remote branch
-git pull <remote_name> <remote_branch>
-# Push changes to a remote repository
-git push <remote_name> <local_branch>
-# Remove a remote repository
-git remote rm <remote_name>
-# Display information about a specific remote repository
-git remote show <remote_name>
-# Show the tracking branches for remote repositories
-git remote show <remote_name> --verbose
+git remote // List remote repositories
+
+git remote add <name> <url> // Add a remote repository
+
+git fetch <remote_name> // Fetch from a remote repository
+
+git pull <remote_name> <remote_branch> // Pull changes from a remote branch
+
+git push <remote_name> <local_branch> // Push changes to a remote repository
+
+git remote rm <remote_name> // Remove a remote repository
+
+git remote show <remote_name> // Display information about a specific remote repository
+
+git remote show <remote_name> --verbose // Show the tracking branches for remote repositories
 
 # --------------- Advanced -------------------
 
