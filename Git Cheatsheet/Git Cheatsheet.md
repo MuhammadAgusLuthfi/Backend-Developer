@@ -7,37 +7,37 @@ Panduan ini adalah referensi singkat ke perintah Git yang paling umum. Ini tidak
 # Setup and Configuration
 
 ```
-// Initialize a new Git repository
-git init
-// Clone and create a local copy of a remote repository
-git clone <url>
-// Configure global Git settings
-git config --global <setting_name> <value>
-// Configure local Git settings for a specific repo
-git config --local <setting_name> <value>
+
+git init // Initialize a new Git repository
+
+git clone <url> // Clone and create a local copy of a remote repository
+
+git config --global <setting_name> <value> // Configure global Git settings
+
+git config --local <setting_name> <value> // Configure local Git settings for a specific repo
 
 # --------------- Advanced ------------------
 
-// Show a summary of your Git configuration settings
-git config --list
-// Set a custom text editor for Git messages
-git config --global core.editor "<editor_command>"
-// Create a Git command alias
-git config --global alias.<shortcut> <command>
-// Enable automatic colorization of Git output
-git config --global color.ui auto
-// Cache Git credentials for a certain amount of time
-git config --global credential.helper 'cache --timeout=<seconds>'
-// Configure git to detect specific types of whitespace errors
-git config --global core.whitespace <options>
-// Automatically prune remote-tracking branches when fetching updates
-git config --global fetch.prune true
-// Set a custom diff tool for Git
-git config --global diff.tool <tool>
-// Set a custom merge tool for Git
-git config --global merge.tool <tool>
-// Compare changes using a custom diff tool
-git difftool
-// Resolve merge conflicts with a custom merge tool
-git mergetool
+
+git config --list // Show a summary of your Git configuration settings
+
+git config --global core.editor "<editor_command>" // Set a custom text editor for Git messages
+
+git config --global alias.<shortcut> <command> // Create a Git command alias
+
+git config --global color.ui auto // Enable automatic colorization of Git output
+
+git config --global credential.helper 'cache --timeout=<seconds>' // Cache Git credentials for a certain amount of time
+
+git config --global core.whitespace <options> // Configure git to detect specific types of whitespace errors
+
+git config --global fetch.prune true // Automatically prune remote-tracking branches when fetching updates
+
+git config --global diff.tool <tool> // Set a custom diff tool for Git
+
+git config --global merge.tool <tool> // Set a custom merge tool for Git
+
+git difftool // Compare changes using a custom diff tool
+
+git mergetool // Resolve merge conflicts with a custom merge tool
 ```
